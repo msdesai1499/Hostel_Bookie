@@ -1,0 +1,32 @@
+body {
+  background: white !important;
+}
+h1 {
+  text-align: center;
+  padding-top: 4rem !important;
+}
+.main {
+  width: 100%;
+  min-height: 380px;
+  text-align: center;
+  position: relative;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+  padding-left: 2rem;
+}
+.main:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.service {
+  color: black;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+.icon {
+  padding-bottom: 30px !important;
+}
